@@ -31,7 +31,7 @@ for birth_day in data_to_dict:
 
         # send the email
         my_email = "mainstopstore@gmail.com"
-        my_email_pass = "upperECHELON03"
+        my_email_pass = "*****"
         # connect to "your" email server
         with smtplib.SMTP("smtp.gmail.com", port=587) as new_connect:
             # secure the connection
